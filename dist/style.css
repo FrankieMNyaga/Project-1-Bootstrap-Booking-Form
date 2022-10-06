@@ -1,0 +1,21 @@
+.heading {
+  font-family: Arial;
+  border: 1.5px gray dashed;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px;
+}
+.tbody {
+  font-family: Arial;
+  border: 1.5px solid #248AFF;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 15px;
+}
+.formHead{
+  background: #248AFF; 
+}
+#user {
+  border: 1.5px solid #248AFF;
+  border-radius: 6px;
+}

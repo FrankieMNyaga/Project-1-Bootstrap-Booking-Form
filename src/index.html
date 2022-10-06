@@ -1,0 +1,129 @@
+<html>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <header>
+    <div id='header' class='well well-lg'>
+      <label>Fill out the form and click the submit button when complete...</label>
+    </div>
+  </header>
+  <body>
+    <div class='col-lg-6'>
+      <div class='panel panel-primary'>
+        <div class='panel-heading'><label>User: </label></div>
+        <div class='panel-body'>
+          <div class='row-lg-6'>
+            <div class='row-lg-6'>
+              <div class='col-lg-3'>
+                <label>Username: </label>
+              </div>
+              <div class='col-lg-9'>
+                <input class="form-control" placeholder="Type username..."></input>
+              </div>
+            </div>
+            <div class='row-lg-6'>
+              <div class='col-lg-3'>
+                <label>First Name: </label>
+              </div>
+              <div class='col-lg-9'>
+                <input class='form-control' placeholder="Type firstname..."></input>
+              </div>
+            </div>
+            <div class='row-lg-6'>
+              <div class='col-lg-3'>
+                <label>Last Name: </label>
+              </div>
+              <div class='col-lg-9'>
+                <input class='form-control' placeholder="Type lastname..."></input>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='panel panel-primary'>
+        <div class='panel-heading'><label>Contact: </label></div>
+        <div class='panel-body'>
+          <div class='row-lg-6'>
+            <div class='row-lg-6'>
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-earphone" id="sizing-addon2"></span>
+                <input type="text" class="form-control" placeholder="Type phone#..." aria-describedby="sizing-addon2">
+              </div>
+            </div>
+            <div class='row-lg-6'>
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-print" id="sizing-addon2"></span>
+                <input type="text" class="form-control" placeholder="Type fax#..." aria-describedby="sizing-addon2">
+              </div>
+            </div>
+            <div class='row-lg-6'>
+              <div class="input-group">
+                <span class="input-group-addon glyphicon glyphicon-envelope" id="sizing-addon2"></span>
+                <input type="text" class="form-control" placeholder="Type e-mial..." aria-describedby="sizing-addon2">
+              </div>
+            </div>
+          </div>
+          <div class='col-lg-6'>
+          </div>
+        </div>
+      </div>
+      <div class='panel panel-primary'>
+        <div class='panel-heading'> <label>Schedule: </label></div>
+        <div class='panel-body'>
+          <div class='row-lg-12'>
+            <label>Adults:</label>
+          </div>
+          <div class='row-lg-12'>
+            <div class='doropdown'>
+              <select class='form-control'>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+          <div class='row-lg-12'>
+            <div class='col-lg-6'>
+              <label>Check-In:</label>
+            </div>
+            <div class='col-lg-6'>
+              <label>Check-Out:</label>
+            </div>
+          </div>
+          <div class='row-lg-12'>
+            <div class='col-lg-6'>
+              <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                  <input type='text' class="form-control"></input>
+                  <span class="input-group-addon">
+                  <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='col-lg-6'>
+      <div class='panel panel-primary'>
+        <div class='panel-heading'><label>Other: </label></div>
+        <div class='panel-body'>
+          <div class="form-group">
+            <label>Message:</label>
+            <textarea class="form-control" rows="20"></textarea>
+          </div>
+          <label class="form-label">Range</label>
+          <input type="range" class="form-range" min="0" max="5" step="1">
+          <label>Priority:</label>
+          <div class="radio">
+            <label><input type="radio" name="optradio" checked>Low</label>
+            <label><input type="radio" name="optradio" checked>Med</label>
+            <label><input type="radio" name="optradio" checked>High</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
