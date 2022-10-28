@@ -1,4 +1,19 @@
-
 #header {
   margin: 14px;
+}
+#schedule-panel {
+  padding: 0px;
+}
+#schedule-panel2 {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+.custom {
+  width: 300px;
+  margin-left: 100px;
+}
+.booking {
+  color: red;
+  font-weight: bold;
+  margin-left: 15px;
 }
